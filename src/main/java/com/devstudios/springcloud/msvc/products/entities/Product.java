@@ -25,7 +25,6 @@ public class Product {
     @Column(name="created_at")
     private LocalDate createdAt;
 
-
     public Long getId() {
         return id;
     }
